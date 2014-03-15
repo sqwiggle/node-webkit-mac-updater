@@ -12,7 +12,7 @@ var updater = new Updater({
     app: 'Sqwiggle',
     source: {
         host: 's3.amazonaws.com',
-        port: 443,
+        port: 80,
         path: '/sqwiggle-releases/mac/sqwiggle-0.2.dmg'
     }
 });
