@@ -9,7 +9,7 @@ var Updater = require('node-webkit-mac-updater');
 
 var updater = new Updater({
     dmg_name: 'Sqwiggle Installer',
-    app: 'Sqwiggle',
+    app_name: 'Sqwiggle',
     source: {
         host: 's3.amazonaws.com',
         port: 80,
