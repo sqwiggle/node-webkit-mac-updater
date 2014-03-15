@@ -27,6 +27,10 @@
     "type": "git",
     "url": "git://github.com/sqwiggle/node-webkit-mac-updater.git"
   },
+  "dependencies": {
+    "adm-zip": "*",
+    "underscore": "*"
+  },
   "main": "./lib/updater.js",
   "version": "0.0.1",
   "readmeFilename": "README.md",
