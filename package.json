@@ -1,0 +1,36 @@
+{
+  "name": "node-webkit-mac-updater",
+  "description": "Update your node-webkit based Mac app with ease",
+  "keywords": [
+    "node-webkit",
+    "mac",
+    "updater"
+  ],
+  "author": {
+    "name": "Tom Moor",
+    "email": "tom@sqwiggle.com",
+    "url": "http://tommoor.com"
+  },
+  "contributors": [
+    {
+      "name": "Tom Moor",
+      "email": "tom@sqwiggle.com",
+      "url": "http://tommoor.com"
+    },
+    {
+      "name": "Sqwiggle",
+      "email": "tom@sqwiggle.com",
+      "url": "https://www.sqwiggle.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sqwiggle/node-webkit-mac-updater.git"
+  },
+  "main": "./lib/updater.js",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/sqwiggle/node-webkit-mac-updater/issues"
+  }
+}
