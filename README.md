@@ -4,7 +4,7 @@ This package will update a deployed Mac application by downloading a dmg from a 
 
 ## Usage
 
-```
+```js
 var Updater = require('node-webkit-mac-updater');
 
 var updater = new Updater({
