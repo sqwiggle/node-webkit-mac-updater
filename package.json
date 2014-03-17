@@ -31,7 +31,6 @@
     "url": "git://github.com/sqwiggle/node-webkit-mac-updater.git"
   },
   "dependencies": {
-    "adm-zip": "*",
     "underscore": "*"
   },
   "devDependencies": {
