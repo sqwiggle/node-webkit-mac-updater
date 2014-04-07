@@ -1,4 +1,4 @@
-# node-webkit-mac-updater
+# Node Webkit Updater
 
 This package will update a deployed Mac application by downloading a dmg from a specific location, mounting it, copying the contents over the original (keeping code signatures) and cleaning up after itself.
 
