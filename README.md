@@ -4,7 +4,9 @@ This package will update a deployed Mac application by downloading a dmg from a 
 
 ## Usage
 
-It's upto your application to know whether an update is needed and where to find it. You can do this by periodically hitting an API endpoint under your control. Once you know an update is needed then simply let the updater know where to find the dmg:
+It's upto your application to know whether an update is needed and where to find it. You can do this by periodically hitting an API endpoint under your control. Once you know an update is needed then simply let the updater know where to find the dmg. 
+
+This gives you the oppertunity to ask the user if they wish to update or force an update in the background.
 
 ```js
 var Updater = require('node-webkit-mac-updater');
