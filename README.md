@@ -27,6 +27,12 @@ updater.update(function(err){
 
 ```
 
+
 ## DMG Format
 
 The DMG must be built so that MyApp.app is in the root of the folder structure. You may have other files in the archive but only MyApp.app will be copied.
+
+
+## Future Development
+
+In the future we will be developing this into a cross-platform updater, covering the quirks and formats required for each individual OS that node-webkit supports.
