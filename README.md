@@ -38,7 +38,9 @@ updater.update(function(err){
 
 ## DMG Format
 
-The DMG must be built so that MyApp.app is in the root of the folder structure. You may have other files in the archive but only MyApp.app will be copied.
+The DMG must be built so that MyApp.app is in the root of the folder structure. You may have other files in the archive but only MyApp.app will be copied. This tool works great for creating DMGs programatically:
+
+https://github.com/sqwiggle/yoursway-create-dmg
 
 
 ## Future Development
