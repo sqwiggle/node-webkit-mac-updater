@@ -2,6 +2,14 @@
 
 This package will update a deployed Mac application by downloading a dmg from a specific location, mounting it, copying the contents over the original (keeping code signatures) and cleaning up after itself.
 
+## Installation
+
+You'll want to install the latest stable package from NPM:
+
+```js
+npm install node-webkit-mac-updater
+```
+
 ## Usage
 
 It's upto your application to know whether an update is needed and where to find it. You can do this by periodically hitting an API endpoint under your control. Once you know an update is needed then simply let the updater know where to find the dmg. 
