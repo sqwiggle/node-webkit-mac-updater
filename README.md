@@ -4,16 +4,18 @@ This package will update a deployed Mac application by downloading a dmg from a 
 
 ## Usage
 
+It's upto your application to know whether an update is needed and where to find it. You can do this by periodically hitting an API endpoint under your control. Once you know an update is needed then simply let the updater know where to find the dmg:
+
 ```js
 var Updater = require('node-webkit-mac-updater');
 
 var updater = new Updater({
-    dmg_name: 'Sqwiggle Installer',
-    app_name: 'Sqwiggle',
+    dmg_name: 'MyApp Installer',
+    app_name: 'MyApp',
     source: {
         host: 's3.amazonaws.com',
         port: 80,
-        path: '/sqwiggle-releases/mac/sqwiggle-0.2.dmg'
+        path: '/myapp-releases/mac/app-0.2.dmg'
     }
 });
 
@@ -22,3 +24,7 @@ updater.update(function(err){
 });
 
 ```
+
+## DMG Format
+
+The DMG must be built so that MyApp.app is in the root of the folder structure. You may have other files in the archive but only MyApp.app will be copied.
