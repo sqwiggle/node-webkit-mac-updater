@@ -32,7 +32,8 @@
     "url": "git://github.com/sqwiggle/node-webkit-mac-updater.git"
   },
   "dependencies": {
-    "underscore": "*"
+    "underscore": "*",
+     "plist-with-patches": "^0.5.1"
   },
   "devDependencies": {
     "mocha": ">= 1.17.1",
